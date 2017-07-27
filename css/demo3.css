@@ -1,0 +1,269 @@
+@import url(reset.css);
+html,
+body,
+.content {
+  width: 100%;
+  height: 100%;
+  background: none;
+  overflow: auto;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content header {
+  width: 100%;
+  height: 1.43rem;
+  background: #202021;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content header b {
+  flex: 1;
+}
+.content header b .icon1 {
+  width: 2.26rem;
+  height: 1.43rem;
+  background: none;
+  margin-left: .3rem;
+}
+.content header .cc {
+  width: 0.66rem;
+  height: 0.64rem;
+  background: none;
+  margin-left: .7rem;
+}
+.content section {
+  flex: 1;
+  background: #f0f0f0;
+  overflow: auto;
+}
+.content section form {
+  width: 100%;
+  height: 1.18rem;
+  background: #ececec;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  justify-content: center;
+}
+.content section form .text {
+  display: block;
+  width: 80.70500928%;
+  height: 0.84rem;
+  background: #ffffff;
+  border: 1px solid #1ac116;
+  text-indent: 3rem;
+  outline: 0;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  margin-left: .3rem;
+  font-size: .34rem;
+  color: #6f6f6f;
+}
+.content section form .sub {
+  display: block;
+  width: 14.10018553%;
+  height: 0.9rem;
+  background: none;
+  background: #0bbe06 url(../img/ai_qi_yi_17.png) no-repeat center;
+  background-size: .48rem;
+  border: 0;
+  outline: 0;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-right: .27rem;
+}
+.content section .nav {
+  width: 100%;
+  height: 1.18rem;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+}
+.content section .nav a {
+  flex: 1;
+  font-size: .4rem;
+  color: #333333;
+}
+.content section .nav a img {
+  width: 0.52rem;
+  height: 0.52rem;
+  background: none;
+}
+.content section .nav a p {
+  margin-top: -0.16rem;
+  font-size: .26rem;
+}
+.content section .nav a:last-child {
+  background: url(../img/15_03.png) no-repeat left center;
+  background-size: .18rem auto;
+}
+.content section .China {
+  display: block;
+  width: auto;
+  height: 5.1rem;
+  background: #ffffff;
+  padding: .32rem .3rem .32rem .33rem;
+}
+.content section .China img {
+  width: 100%;
+  height: 5.1rem;
+  background: none;
+}
+.content section .gift {
+  width: 100%;
+  height: 1.4rem;
+  background: #ffffff;
+  padding: 0 .27rem 0 .3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content section .gift img {
+  width: 0.57rem;
+  height: 0.57rem;
+  background: none;
+}
+.content section .gift h3 {
+  flex: 1;
+  width: auto;
+  height: 0.36rem;
+  background: none;
+  font-size: .42rem;
+  margin-left: .36rem;
+  color: #000000;
+  background: url(../img/ai_qi_yi_33.png) no-repeat right center;
+  margin-right: .87rem;
+}
+.content section .main {
+  width: auto;
+  height: 4.14rem;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding-top: .33rem;
+  padding-left: .3rem;
+  padding-right: .3rem;
+}
+.content section .main dl {
+  flex: 1;
+}
+.content section .main dl dt img {
+  width: 5.02rem;
+  height: 2.9rem;
+  background: none;
+}
+.content section .main dl dt img:first-child {
+  margin-right: .16rem;
+}
+.content section .main dl dd h2 {
+  font-size: .38rem;
+  color: #000000;
+}
+.content section .main dl dd b {
+  font-size: .33rem;
+  color: #666666;
+}
+.content section .aqyi {
+  width: auto;
+  height: 0.4rem;
+  background: #ffffff;
+  display: block;
+  line-height: .4rem;
+  padding: .4rem .3rem;
+  font-size: .48rem;
+}
+.content section .star {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 1.77rem;
+  background: #ffffff;
+  padding: 0 .3rem;
+  padding-bottom: .26rem;
+  margin-bottom: .56rem;
+}
+.content section .star a {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.content section .star a .superstar {
+  width: 1.35rem;
+  height: 1.35rem;
+  background: none;
+}
+.content section .star a .text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: .16rem;
+}
+.content section .star a .text h1 {
+  color: #000000;
+  font-size: .4rem;
+  font-weight: bolder;
+  margin-top: .2rem;
+  margin-bottom: .36rem;
+}
+.content section .last {
+  width: auto;
+  height: 1.98rem;
+  background: #ffffff;
+  padding: 0 .3rem;
+  display: flex;
+  flex-direction: row;
+}
+.content section .last .outoplay {
+  flex: 1;
+  height: 1.5rem;
+  background: url(../img/ai_qi_yi_63.png) no-repeat right center;
+  background-size: .1rem 1rem;
+}
+.content section .last .outoplay p {
+  font-size: .36rem;
+  color: #000000;
+}
+.content section .last .outoplay p img {
+  width: 0.38rem;
+  height: 0.4rem;
+  background: none;
+}
+.content section .last .small {
+  padding: 0 .4rem;
+}
+.content section .last .small img {
+  width: 1.08rem;
+  height: 1.08rem;
+  background: none;
+  background: url(../img/ai_qi_yi_33.png) no-repeat right center;
+  padding-right: .87rem;
+  background-size: .3rem .6rem;
+}
+.content footer {
+  width: 100%;
+  height: 1.5rem;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.content footer dl {
+  flex: 1;
+}
+.content footer dl dt img {
+  width: 0.7rem;
+  height: 0.65rem;
+  background: none;
+  margin-top: .17rem;
+}
+.content footer dl dd {
+  color: #666666;
+}
